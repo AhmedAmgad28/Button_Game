@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(70, 90, 109);
+    text-align: center;
+}
+.title{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.description{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #d3fde3;
+}
+.btn1{
+    background-color: rgb(36, 231, 166);
+    border-radius: 10px;
+    text-align: center;
+    color: #424344;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 20px;   
+    box-shadow: 0px 0px 3px 2px #424344;
+}
+.btn1:hover{
+    color: #d3fde3;
+    transition: 0.7s;
+}
+.container{
+    background-color: rgb(36, 231, 166);
+    display: block;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.timer_container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #424344;
+    color: #d3fde3;
+    border-radius: 20px;
+    width: 25%;
+    margin: auto;
+}
+.timer_container p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(36, 231, 166);
+    padding: 4px;
+}
+.timer{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-left: 5px;
+    color: rgb(36, 231, 166);
+}
+.container_in{
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card{
+    display: flex;
+    text-align: center;
+    margin: 20px 0px;
+    border-radius: 10px;
+    width: 80%;
+    background-color: rgba(59, 125, 124, 0.399);
+}
+.play_card{
+    width:500px;
+    background-color: #d3fde3;
+    border: 5px solid #424344;
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 2px #424344;
+}
+.play_card h1{
+    color: #424344;
+}
+.play_card p{
+    color: rgb(59, 125, 124);
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: relative;
+}
+.btn_log{
+    background-color: #424344;
+    border-radius: 10px;
+    color: rgb(36, 231, 166);
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 20px;   
+    box-shadow: 0px 0px 3px 2px #424344;
+}
+.btn_log:active{
+    color:rgb(36, 231, 166);
+    background-color: #d3fde3; 
+}
+.btn{
+    background-color: rgb(36, 231, 166);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 20px;   
+    box-shadow: 0px 0px 3px 2px #424344;
+}
+.btn:hover{
+    color: #424344;
+    transition: 0.7s;
+}
+.btn:active{
+    color:rgb(36, 231, 166);
+    background-color: #424344; 
+}
+
+
+@media(max-width:1500px){
+
+    .card{
+        width: 98%;
+    }
+    .play_card{
+        width: 98%;
+    }
+    .container_in{
+        width: 98%;
+    }
+}
+@media(max-width:1250px){
+
+    .card{
+        width: 900px;
+    }
+    .play_card{
+        width: 900px;
+    }
+    .container_in{
+        width: 900px;
+    }
+} 
+@media(max-width:1100px){
+    .card{
+        width:90%;
+    }
+    .play_card{
+        width:90%;
+    }
+    .container_in{
+        width:90%;
+    }
+}
+
+@media(max-width:550px){
+   
+    .card{
+        margin: 10px 5px;
+        width: 100%;
+    }
+    .play_card{
+        margin: 10px 5px;
+        width: 100%;
+    }
+    .container_in{
+        margin: 10px 5px;
+        width: 100%;
+    }
+}

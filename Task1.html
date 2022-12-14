@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 class="title">Button Game</h1>
+    <p class="description">In this game each player has to click the button once at his turn(5 seconds) in order to get a point.</p>
+    <button class="btn1" id="btn1" onclick="Game()" type="button">Start game</button>
+    <div class="container">
+        <div class="timer_container">
+            <p>Time :   </p>
+            <div class="timer" id="maintimer">0</div>
+        </div>
+        <div class="container_in">
+            <button class="btn_log" onclick="P1logout()">Log Out</button>
+            <div class="card">
+                <div class="play_card">
+                    <h1 id="TP1">Player 1</h1>
+                    <p>
+                        <span>Score : </span>
+                        <span id="display1">0</span>
+                    </p>
+                    <button class="btn" type="button" id="p1" >Click Me</button>
+                </div>
+                <div class="play_card">
+                    <h1 id="TP2">Player 2</h1>
+                    <p>
+                        <span>Score : </span>
+                        <span id="display2">0</span>
+                    </p>
+                    <button class="btn" type="button" id="p2" >Click Me</button>
+                </div>
+            </div>
+            <button class="btn_log" onclick="P2logout()">Log Out</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
