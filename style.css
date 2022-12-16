@@ -92,6 +92,7 @@ body{
     position: relative;
 }
 .btn_log{
+    width: 100px;
     background-color: #424344;
     border-radius: 10px;
     color: rgb(36, 231, 166);
